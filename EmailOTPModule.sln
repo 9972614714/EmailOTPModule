@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailOTPModule", "EmailOTPModule\EmailOTPModule.csproj", "{A45B9DB6-8ABA-4D75-ABA7-347D0BD8BAA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailOTP.Domain", "EmailOTP.Core\EmailOTP.Domain.csproj", "{3EDDE6B8-7F2B-4621-82A9-5BEB4B8B8A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailOTP.Infrastructure", "EmailOTP.Infrastructure\EmailOTP.Infrastructure.csproj", "{5ED416C8-FB93-4119-B479-7F4AF79408E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailOTP.Service", "EmailOTP.Service\EmailOTP.Service.csproj", "{45767027-AFA4-4B83-86A6-A4DEA2F2E112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailOTPModule.Test", "EmailOTPModule.Test\EmailOTPModule.Test.csproj", "{75DC7BE4-D508-421D-8CDA-970E0E8510A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45B9DB6-8ABA-4D75-ABA7-347D0BD8BAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45B9DB6-8ABA-4D75-ABA7-347D0BD8BAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45B9DB6-8ABA-4D75-ABA7-347D0BD8BAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45B9DB6-8ABA-4D75-ABA7-347D0BD8BAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDDE6B8-7F2B-4621-82A9-5BEB4B8B8A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDDE6B8-7F2B-4621-82A9-5BEB4B8B8A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDDE6B8-7F2B-4621-82A9-5BEB4B8B8A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDDE6B8-7F2B-4621-82A9-5BEB4B8B8A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED416C8-FB93-4119-B479-7F4AF79408E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED416C8-FB93-4119-B479-7F4AF79408E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED416C8-FB93-4119-B479-7F4AF79408E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED416C8-FB93-4119-B479-7F4AF79408E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45767027-AFA4-4B83-86A6-A4DEA2F2E112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45767027-AFA4-4B83-86A6-A4DEA2F2E112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45767027-AFA4-4B83-86A6-A4DEA2F2E112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45767027-AFA4-4B83-86A6-A4DEA2F2E112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DC7BE4-D508-421D-8CDA-970E0E8510A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DC7BE4-D508-421D-8CDA-970E0E8510A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DC7BE4-D508-421D-8CDA-970E0E8510A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DC7BE4-D508-421D-8CDA-970E0E8510A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66A222F8-88F0-4207-BEBD-EC676F20FD2D}
+	EndGlobalSection
+EndGlobal
